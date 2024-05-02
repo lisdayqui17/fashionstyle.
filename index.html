@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fashionstyle</title>
+
+    <style>
+        /* Estilos globales */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; /* Incluye el padding y border en el ancho y alto del elemento */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fce4ec; /* Rosa */
+            color: #000; /* Negro */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #eeb20d; /* Dorado */
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #fff; /* Blanco */
+            font-size: 36px;
+            text-transform: uppercase;
+        }
+
+        header p {
+            margin-bottom: 20px;
+            color: #fff; /* Blanco */
+            font-size: 18px;
+        }
+
+        nav {
+            background-color: #fff; /* Blanco */
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #000; /* Negro */
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #eeb20d; /* Dorado */
+        }
+
+        main {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #fff; /* Blanco */
+        }
+
+        section {
+            flex: 1 1 300px;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        section:hover {
+            transform: scale(1.05);
+        }
+
+        section h2 {
+            margin-bottom: 10px;
+            color: #eeb20d; /* Dorado */
+            font-size: 24px;
+        }
+
+        section p {
+            color: #333; /* Gris oscuro */
+            font-size: 16px;
+        }
+
+        section img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+
+        section img:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            background-color: #eeb20d; /* Dorado */
+            padding: 20px;
+            text-align: center;
+            color: #fff; /* Blanco */
+        }
+
+        footer p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>¡Bienvenido a fashionstyle!</h1>
+        <p>Somos una marca encargada de vestir a la mujer de una manera modesta y a la vez elegante, somos fabricantes de nuestra propia marca y siempre buscamos satisfacer a nuestras clientas, brindándoles prendas de alta calidad que se ajusten a sus necesidades.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#categorias">Categorías</a></li>
+            <li><a href="#ofertas">Ofertas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>¡Descubre las últimas tendencias en moda!</h2>
+            <img src="https://estag.fimagenes.com/img/v2/7e6/1107045_544098_900.webp" alt="Últimas tendencias en moda">
+            <p>Explora nuestra colección y encuentra prendas únicas que te harán lucir increíble.</p>
+        </section>
+
+        <section id="categorias">
+            <h2>Explora nuestras categorías</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjjM0wBZRk7nNT6r6HKZ8s9nlrWhL309O12w&s" alt="Categorías de ropa">
+            <p>Encuentra lo que buscas entre una amplia variedad de categorías: vestidos, blusas, pantalones y mucho más.</p>
+        </section>
+
+        <section id="ofertas">
+            <h2>¡No te pierdas nuestras ofertas!</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtsiodgZcEimFJXz0br51bo2JFIBAUNiKDhg&s">
+        </section>
+        <section id="contacto">
+            <h2>¿Necesitas ayuda?</h2>
+            <img src="" alt="Atención al cliente">
+            <p>Contáctanos si tienes alguna pregunta o necesitas asistencia. Estamos aquí para ayudarte.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 fashionstyle - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
